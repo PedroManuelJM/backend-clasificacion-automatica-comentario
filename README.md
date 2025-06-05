@@ -2,20 +2,24 @@
 
 Este proyecto es una API creada con FastAPI que clasifica comentarios de texto utilizando un modelo entrenado propio y alojado en la plataforam de Hugging Face.
 
-#En la carpeta de tu proyecto tu entorno virtual
-# py -3.10 -m venv venv310
-# venv310\Scripts\activate
+En la carpeta de tu proyecto tu entorno virtual con python 3.10
 
-# python 3.10
-# python.exe -m pip install --upgrade pip   
-# pip install python-dotenv
-# pip install fastapi transformers torch uvicorn
-# pip install httpx pytest
+#### - py -3.10 -m venv venv310
+#### - venv310\Scripts\activate
+Usar python 3.10
 
-#Ejecutar 
-# python app.py
-# pytest test.py
+## Instalar librerías:
+#### python.exe -m pip install --upgrade pip   
+#### pip install python-dotenv
+#### pip install fastapi transformers torch uvicorn
+#### pip install httpx pytest
 
+## Ejecutar 
+python app.py
+
+pytest test.py
+
+## Documentación API
 http://0.0.0.0:7860/docs  
 
 ## 🚀 Tecnologías Usadas
@@ -76,8 +80,6 @@ Respuesta:
 {
   "message": "API funcionando."
 }
-
- 
 
 ### POST /predict
 Recibe un comentario en formato JSON y devuelve su clasificación.
